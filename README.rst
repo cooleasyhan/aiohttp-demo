@@ -7,8 +7,8 @@ Installation
 
 Clone repo and install library::
 
-    $ git clone git@github.com:aio-libs/aiohttp-demos.git
-    $ cd aiohttp-demos
+    $ git@github.com:cooleasyhan/aiohttp-demo.git
+    $ cd aiohttp-demo
 
 Install the app::
 
