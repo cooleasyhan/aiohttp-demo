@@ -1,0 +1,22 @@
+mysql:
+  host: locolhost 
+  port: 3306
+  db: "db"
+  user: "user"
+  password: "password"
+  minsize: 5
+  maxsize: 15
+
+redis:
+  redis_url: "redis://:password@localhost:1234/0"
+  minsize: 5
+  maxsize: 50
+
+amqp:
+  host: localhost
+  port: 5672
+  login: xx
+  password: xx
+  virtualhost: /
+  heartbeat: 60
+  

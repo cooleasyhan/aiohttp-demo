@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    environment:
+      - PYTHONPATH=.:$PYTHONPATH
+    build: .
+    # command: python main/main.py --host=0.0.0.0 
+    # command: gunicorn main.main:gunicorn_app -b 0.0.0.0:8080 -k aiohttp.GunicornWebWorker -w 4
+    volumes:
+      - .:/u01/report_server/
+    ports:
+      - "8000:8080"

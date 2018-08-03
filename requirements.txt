@@ -1,0 +1,7 @@
+aiohttp
+aioredis 
+aiomysql 
+pyyaml 
+sqlalchemy
+click
+aiocache
