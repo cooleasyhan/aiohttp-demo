@@ -1,6 +1,6 @@
 Python Asyncio Http (aiohttp） Demo
 ==============
-用于开发简单的web 后端服务， 单核并发可达7000-8000
+用于开发简单的web 后端服务， 4核并发可达7000-8000
 
 Installation
 ============
